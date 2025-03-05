@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/styles/index.css" />
+    <link rel="stylesheet" href="assets/styles/home.css" />
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <!-- Header with Navigation -->
+    <header>
+      <div class="container">
+        <nav>
+          <div class="logo">My Portfolio</div>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <h1>Hello, I'm Danish Siddiqui</h1>
+        <p>
+          Web Developer & Designer creating beautiful and functional websites
+        </p>
+        <a href="#contact" class="btn">Get In Touch</a>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <div class="section-title">
+          <h2>About Me</h2>
+        </div>
+        <div class="about-content">
+          <div class="about-img">
+            <img src="assets/images/main.jpg" alt="Danish Siddiqui" />
+          </div>
+          <div class="about-text">
+            <h3>Who am I?</h3>
+            <p>
+              A Full-stack Developer with over 2 years of hands-on experience, I
+              bring proficiency in crafting robust web applications. My
+              expertise spans both front-end finesse and back-end architecture,
+              ensuring innovative and efficient solutions for diverse projects.
+            </p>
+
+            <h3>My Skills</h3>
+            <ul>
+              <li>HTML5 & CSS3</li>
+              <li>Responsive Web Design</li>
+              <li>Javascript, Typescript, ReactJS, NextJs, Astro</li>
+              <li>NodeJs, ExpressJs, NestJs, Python, FastAPI</li>
+            </ul>
+            <a href="about.html" class="btn">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" style="background-color: #1a1a1a">
+      <div class="container">
+        <div class="section-title">
+          <h2>My Projects</h2>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-img">
+              <img src="assets/images/twitter.png" alt="Project 1" />
+            </div>
+            <div class="project-info">
+              <h3>TwitterDS</h3>
+              <p>
+                Experience the full capabilities of social media with my Twitter
+                Clone project namely TwitterDS, crafted on Next.js.
+              </p>
+              <a href="projects.html" class="btn">View Details</a>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-img">
+              <img src="assets/images/blogger.png" alt="Project 2" />
+            </div>
+            <div class="project-info">
+              <h3>BloggerDS</h3>
+              <p>
+                Explore BloggerDS, a full-stack blogging website crafted on
+                Next.js 14. Unleash your creativity with seamless post creation
+                and real-time updates.
+              </p>
+              <a href="projects.html" class="btn">View Details</a>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-img">
+              <img src="assets/images/summarizerDS.png" alt="Project 3" />
+            </div>
+            <div class="project-info">
+              <h3>SummarizerDS</h3>
+              <p>
+                A React AI Application that takes url of any blog or article as
+                an input from the user then creates a summmary for the article
+                itself using Artificial Intelligence.
+              </p>
+              <a href="projects.html" class="btn">View Details</a>
+            </div>
+          </article>
+        </div>
+        <div style="text-align: center; margin-top: 2rem">
+          <a href="projects.html" class="btn">View All Projects</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <div class="section-title">
+          <h2>Get In Touch</h2>
+        </div>
+        <form class="contact-form">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Your name"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Your email address"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Your message"
+              required
+            ></textarea>
+          </div>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Map Section -->
+    <section style="background-color: #1a1a1a">
+      <div class="container">
+        <div class="section-title">
+          <h2>Find Me</h2>
+        </div>
+        <div
+          style="
+            width: 100%;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+          "
+        >
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3619.1367781098083!2d67.0881958!3d24.8933157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33ed18aeaea6b%3A0xf50bdb260e451aa8!2sBahria%20University%20Karachi%20Campus!5e0!3m2!1sen!2s!4v1741198106532!5m2!1sen!2s"
+            width="100%"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>My Portfolio</h3>
+            <p>
+              Creating beautiful and functional websites that help businesses
+              grow and succeed online.
+            </p>
+          </div>
+          <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul class="footer-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="projects.html">Projects</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3>Contact Info</h3>
+            <p>Email: danishsidd203@gmail.com</p>
+            <p>Phone: 0318-1380583</p>
+            <p>Address: Karachi, Sindh</p>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>&copy; 2025. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
